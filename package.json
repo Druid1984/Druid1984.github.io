@@ -1,0 +1,44 @@
+{
+  "name": "harris-johnsen-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "homepage": "https://Druid1984.github.io"
+  },
+  "dependencies": {
+    "@iconify/react": "^5.0.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.24",
+    "harris-johnsen-2": "file:",
+    "next-themes": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icon-cloud": "^4.1.4",
+    "react-motion": "^0.5.2",
+    "simple-icons": "^13.5.0",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "path": "^0.12.7",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.2.0",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
